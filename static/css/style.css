@@ -103,3 +103,34 @@
 .webring {
   margin: .375rem;
 }
+
+/* Fork Additions */
+h1::before {
+	color: var(--accent) !important;
+	content: '# ' !important;
+}
+
+h2::before {
+	color: var(--accent) !important;
+	content: '## ' !important;
+}
+
+h3::before {
+	color: var(--accent) !important;
+	content: '### ' !important;
+}
+
+h4::before {
+	color: var(--accent) !important;
+	content: '#### ' !important;
+}
+
+h5::before {
+	color: var(--accent) !important;
+	content: '##### ' !important;
+}
+
+h6::before {
+	color: var(--accent) !important;
+	content: '###### ' !important;
+}
